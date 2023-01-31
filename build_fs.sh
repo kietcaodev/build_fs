@@ -1,5 +1,6 @@
 #!/bin/sh
 # CentOS 7 install
+cd /tmp
 echo "*           Welcome to Script build Fusion_PBX_System        		*"
 yum update -y 
 yum groupinstall -y 'Development Tools'
